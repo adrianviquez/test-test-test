@@ -1,0 +1,32 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello",
+    "testOne": "jest ./flag1",
+    "testTwo": "jest ./flag2",
+    "testFrontend": "jest ./frontend",
+    "testWords": "jest ./words",
+    "testTemples": "jest ./temples",
+    "testAll": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-codecov/test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian-codecov/test-repo/issues"
+  },
+  "homepage": "https://github.com/adrian-codecov/test-repo#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/"
+  }
+}
